@@ -219,7 +219,7 @@ CMDResume.hasSkillTable = function(){
 // Update page title to Resume owners name
 CMDResume.updateTitle = function(){
     if (isNotEmpty(name)){
-        document.title = name + "'s Résumé";
+        document.title = name + "'s Resume";
     }
 };
 
@@ -365,7 +365,7 @@ CMDResume.initVariables = function(){
 
 
     // Name
-    this.setCommand("name", "owner of the résumé", setName(name), name);
+    this.setCommand("whoami", "owner of the resume", setName(name), name);
 
     // Looking for
     this.setCommand("lookingfor", "looking for", setName(lookingfor), lookingfor);
